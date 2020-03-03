@@ -1,0 +1,32 @@
+
+import java.util.Scanner;
+
+public class Employ extends Person{
+	String project;
+	int eid;
+	Scanner sc=new Scanner(System.in);
+@Override
+	void uin() {
+		System.out.println("id");
+		id=sc.nextInt();
+		System.out.println("name");
+		name=sc.next();
+		System.out.println("project");
+		project=sc.next();
+		System.out.println("eid");
+		eid=sc.nextInt();
+		
+	}
+	public void disp(){
+		System.out.println("name"+name);
+		System.out.println("id"+id);
+		System.out.println("person eid:"+eid);
+		System.out.println("project name:"+project);
+		
+	}
+	
+		// TODO Auto-generated method stub
+		
+	}
+
+
