@@ -1,0 +1,29 @@
+package interf;
+
+import java.util.Scanner;
+
+	public class Second implements First{
+		String project;
+		int eid;
+		Scanner sc=new Scanner(System.in);
+
+	public void input(int id,String name) {
+		//	System.out.println("id");
+		//	id=sc.nextInt();
+		//	System.out.println("name");
+		//	name=sc.next();
+			System.out.println("eid");
+			System.out.println("project");
+			eid=sc.nextInt();
+			project=sc.next();
+			
+					System.out.println("id"+id);
+					System.out.println("name"+name);
+					System.out.println("person eid:"+eid);
+					System.out.println("project name:"+project);
+						
+		
+			
+		}
+	
+	}
