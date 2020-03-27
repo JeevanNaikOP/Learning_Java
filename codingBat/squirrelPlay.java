@@ -7,8 +7,8 @@ return true if the squirrels play and false otherwise.
 
 squirrelPlay(70, false) → true
 squirrelPlay(95, false) → false
-/*squirrelPlay(95, true) → true
-
+squirrelPlay(95, true) → true
+*/
 public boolean squirrelPlay(int temp, boolean isSummer) {
   if(temp>=60&&temp<=90) return true;
   if(isSummer==true&&temp>=60&&temp<=100) return true;
