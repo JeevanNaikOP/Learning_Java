@@ -11,7 +11,7 @@ public String stringX(String str) {
     
         int len = str.length();
 
-        if (  < 3 )
+        if (len  < 3 )
         {
             return str;
         }
