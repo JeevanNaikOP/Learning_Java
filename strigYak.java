@@ -15,5 +15,5 @@ public String stringYak(String str) {
   else
   result+=str.charAt(i);
   }
-  return result;
+  return resul;
 }
