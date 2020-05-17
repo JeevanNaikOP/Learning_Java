@@ -6,7 +6,7 @@
 //stringX("abxxxcd") → "abcd"
 //stringX("xabxxxcdx") → "xabcdx"
 
-public String stringX(String str) {
+public String stringX(String str) 
  
     
         int len = str.length();
