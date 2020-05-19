@@ -5,12 +5,13 @@ int average(int[] scores, int start, int end) { which computes the average of th
 Call your helper method twice to implement scoresAverage().
 Write your helper method after your scoresAverage() method in the JavaBat text area.
 Normally you would compute averages with doubles, but here we use ints so the expected results are exact.
-*/
+
 
 
 scoresAverage([2, 2, 4, 4]) → 4
 scoresAverage([4, 4, 4, 2, 2, 2]) → 4
 scoresAverage([3, 4, 5, 1, 2, 3]) → 4
+*/
 
 public int scoresAverage(int[] scores) {
   int avg1 = average(scores, 0, scores.length/2);
