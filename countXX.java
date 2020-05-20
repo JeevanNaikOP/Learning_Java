@@ -7,4 +7,5 @@ int countXX(String str) {
   count=count+1;
   }
   return count;
+}
 
